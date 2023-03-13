@@ -1,0 +1,46 @@
+/* HERO */
+.hero {
+  padding: 96px 0;
+  background-color: #eff7f2;
+}
+
+.hero__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hero__donate {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-bottom: 41px;
+  font-weight: 700;
+  position: relative;
+
+  &::before {
+    content: "";
+    display: inline-block;
+    width: 72px;
+    height: 2px;
+    background-color: #1d2130;
+    position: absolute;
+    left: -96px;
+    top: calc(50% - 2px);
+  }
+}
+
+.hero__heading {
+  color: #000;
+  font-size: 56px;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.hero__text {
+  color: #525560;
+  margin-bottom: 32px;
+}
+
+.hero__link {
+  @include for-link;
+}

@@ -1,0 +1,43 @@
+/* JOIN */
+.join {
+  margin-bottom: 96px;
+}
+
+.join__inner {
+  background: url("../../img/donation_img.png");
+  background-repeat:no-repeat;
+  background-position: center;
+  background-size: cover;
+  border-radius: 12px;
+  padding: 93px 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.join__heading {
+  max-width: 630px;
+  font-size: 48px;
+  width: 100%;
+  line-height: 1.2;
+  margin: 0;
+  margin-bottom: 32px;
+  color: #fff;
+}
+
+.join__button-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 32px;
+}
+
+.join__add-btn {
+  @include for-link;
+}
+
+.join__donate-btn {
+  @include for-white-link;
+}

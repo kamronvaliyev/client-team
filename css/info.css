@@ -1,0 +1,10 @@
+.information__inner h6 {
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: rgb(29, 33, 48);
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}/*# sourceMappingURL=info.css.map */

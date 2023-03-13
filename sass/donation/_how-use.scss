@@ -1,0 +1,23 @@
+.how-use {
+  padding: 96px 0;
+}
+
+.how-use__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 96px;
+}
+
+.how-use__heading {
+  margin: 0;
+  padding: 0;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.how-use__text {
+  padding: 0;
+  margin: 0;
+  max-width: 338px;
+}

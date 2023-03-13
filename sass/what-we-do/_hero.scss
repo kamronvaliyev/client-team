@@ -1,0 +1,30 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .we-do {
+    .line {
+      span {
+        color: $color-primary-black;
+        width: 72px;
+      }
+      h4 {
+        font-weight: 700;
+        font-size: 16px;
+        color: $color-primary-black;
+      }
+    }
+    .hero-heading {
+      h2 {
+        font-weight: 700;
+        font-size: 56px;
+        color: $color-primary-black;
+      }
+      p {
+        font-weight: 400;
+        font-size: 16px;
+        color: $color-primary-p;
+      }
+    }
+  }
+}

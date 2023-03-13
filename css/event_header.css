@@ -1,0 +1,25 @@
+.data-box {
+  margin: 100px 300px;
+}
+
+.title-data {
+  width: 768px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 120%;
+  color: .title-data;
+  margin-bottom: 48px;
+}
+
+.data-info {
+  display: flex;
+  align-items: center;
+  gap: 77.6px;
+}
+.data-info span {
+  white-space: nowrap;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}/*# sourceMappingURL=event_header.css.map */
